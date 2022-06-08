@@ -21,7 +21,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(locations = "/applicationContext.xml") //applicationContext.xml loading
 public class JunitUserDaoTest {
   final Logger LOG = LogManager.getLogger(this.getClass());
-  
+  //수정 COMMIT
   @Autowired  //컨텍스트 프레임워크는 변수 타입과 일치하는 컨텍스트 내의 빈을 찾고, 변수에 주입
   ApplicationContext context;
   
